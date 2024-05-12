@@ -1,0 +1,60 @@
+button.sign-in-button {
+    padding: 12px 20px;
+    background-color: var(--blue);
+    color: #fefefe;
+    border: solid 1px var(--blue);
+    border-radius: 8px;
+    transition: all 250ms ease-in-out;
+}
+
+button.sign-in-button:hover {
+    background-color: #fff;
+    color: var(--blue);
+}
+
+button.create-account {
+    background-color: #fefefe;
+    color: var(--blue);
+    border: var(--blue) 1px solid;
+    border-radius: 8px;
+    padding: 12px 20px;
+    transition: all 250ms ease-in-out;
+}
+
+button.create-account:hover {
+    background-color: var(--blue);
+    color: #fefefe;
+}
+
+header.header {
+    position: relative;
+}
+
+div.mobile-nav {
+    position: fixed;
+    top: 0;
+    background-color: #fefefe;
+    width: 50vw;
+    height: 100vh;
+    z-index: 999;
+    transform: translateX(200%);
+    transition: transform 150ms ease-in-out;
+}
+
+div.mobile-nav-active {
+    position: fixed;
+    top: 0;
+    background-color: #fefefe;
+    width: 50vw;
+    height: 100vh;
+    z-index: 999;
+    transition: transform 150ms ease-in-out;
+    transform: translateX(100%);
+    
+}
+
+div.choices {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

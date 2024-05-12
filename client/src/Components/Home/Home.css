@@ -1,0 +1,57 @@
+section.home-section {
+    background-color: var(--lightBlue);
+}
+
+hr.background-blue-hr {
+    background-color: var(--blue);
+}
+
+button.clear-button {
+    padding: 12px 24px;
+    color: #fefefe;
+    background-color: var(--blue);
+    border: var(--blue) solid 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+button.clear-button:hover {
+    background-color: #fefefe;
+    color: var(--blue);
+}
+
+.slider {
+    width: 100%;
+    height: 8px;
+    background-color: var(--lightBlue);
+}
+
+.slider .thumb {
+    padding: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--blue);
+    transform: translateY(-35%);
+    border-radius: 5px;
+}
+
+div.parent-input {
+    position: relative;
+}
+
+div.input-division {
+    position: relative;
+}
+
+div.input-division svg {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+input.search-input:focus {
+    outline: none;
+}

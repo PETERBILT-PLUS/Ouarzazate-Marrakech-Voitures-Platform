@@ -1,0 +1,20 @@
+button.submit-button {
+    width: 100%;
+    padding: 12px 20px;
+    color: #fefefe;
+    background-color: var(--blue);
+    border: solid 1px var(--blue);
+    border-radius: 8px;
+    transition: all 250ms ease-in-out;
+}
+
+button.submit-button:disabled {
+    background-color: var(--lightBlue);
+    color: #fefefe;
+    border: solid 1px var(--lightBlue);
+}
+
+button.submit-button:hover {
+    background-color: #fefefe;
+    color: var(--blue);
+}
